@@ -1,4 +1,4 @@
-# openstack-interview-questions
+# Openstack Interview Questions
 
 ## 1)      Explain what is OpenStack?
 
