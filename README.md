@@ -1,5 +1,5 @@
-# A repo for techincal questions and answers
+# A repo for techincal interview questions and answers
 
-## Openstack Interview Question
+## Openstack Interview Questions
 - [openstack-interview-questions-set-1.md](openstack-interview-questions-set-1.md)
 - [openstack-interview-questions-set-2.md](openstack-interview-questions-set-2.md)
