@@ -1,30 +1,16 @@
-
-
-Question 1. What You Mean By Tenant And Role Regarding Openstack ?
-
-Answer :
-
+## Question 1. What You Mean By Tenant And Role Regarding Openstack ?
 In OpenStack,  the authorization level of the user is called role and the group of users is called tenant.
 
-Question 2. What Types Of Storage Openstack Compute Provides?
-
-Answer :
-
+## Question 2. What Types Of Storage Openstack Compute Provides?
 OpenStack provides two classes of block storage:
 
-    Volume Storage: It is persistent and not dependent on any particular instance. Volumes are created by users and within Quota
-    Ephemeral Storage: It is associated with a single instance.They effectively disappear when a virtual machine is terminated.
+Volume Storage: It is persistent and not dependent on any particular instance. Volumes are created by users and within Quota
+Ephemeral Storage: It is associated with a single instance.They effectively disappear when a virtual machine is terminated.
 
-Question 3. Define Openstack?
-
-Answer :
-
+## Question 3. Define Openstack?
 OpenStack is a set of software tools for building and managing cloud computing platforms for public and private clouds.
 
-Question 4. Give An Overview Of Openstack Services?
-
-Answer :
-
+## Question 4. Give An Overview Of Openstack Services?
 OpenStack offers services like :
 
 Glance: Manages images in different formats
@@ -36,72 +22,48 @@ Swift: Storage platform integrated directly into applications
 Heat: Allows automated infrastructure deployment
 Keystone: Provides authorization and authentication for users
 
-Question 5. What Are The Basic Functions Of Identity Service In Openstack?
-
-Answer :
-
+## Question 5. What Are The Basic Functions Of Identity Service In Openstack?
 The basic functions of Identity Service is:
 
 Service Catalog: It provides a catalog of available services with their API endpoints
 User Management: It tracks the users and their permissions
 
-Question 6. Explain Modular Architecture Of Openstack?
-
-Answer :
-
+## Question 6. Explain Modular Architecture Of Openstack?
 The three components that make modular architecture for OpenStack are:
 
 OpenStack Compute: For managing large networks of the virtual machine.
 Image Service: The delivery service provides discovery and registration for virtual disk images.
 OpenStack Object Storage: A storage system that provides support for both block storage and object storage.
 
-Question 7. Explain What Hypervisor Is And What Type Of Hypervisor Does Openstack Supports?
-
-Answer :
-
+## Question 7. Explain What Hypervisor Is And What Type Of Hypervisor Does Openstack Supports?
 In virtualization technology, hypervisor is a software program that manages multiple operating systems (or multiple instances of the same operating system) on a single computer system.
 
 The types of hypervisor that OpenStack supports are :
-
     KVM
     Containers
     Xen and HyperV
     VMware
 
-Question 8. What Is The Meaning Of Term “cinder” In Openstack Service?
-
-Answer :
-
+## Question 8. What Is The Meaning Of Term “cinder” In Openstack Service?
 Cinder is used for handling persistent storage in OpenStack.The one that is utilized by default is LVM, called Cinder-Volumes.
 
-Question 9. What Is The Command Used For Unpause And Pause An Instance?
-
-Answer :
+## Question 9. What Is The Command Used For Unpause And Pause An Instance?
 
     To unpause an instance – $ nova unpause INSTANCE_NAME
     To pause an instance – $ nova pause INSTANCE_NAME
 
-Question 10. Explain How You Can Transfer Volume From One Owner To Another In Openstack?
-
-Answer :
-
+## Question 10. Explain How You Can Transfer Volume From One Owner To Another In Openstack?
 You can transfer a volume from one owner to another by using the command cinder transfer*.
 
-Question 11. What Are The Main Components Of Identity User Management?
-
-Answer :
-
+## Question 11. What Are The Main Components Of Identity User Management?
 Users: It is a digital representation of a person, service or system who uses OpenStack cloud services
 Roles: A role includes a set of rights and privileges. A role determines what operations a user is permitted to perform in a given tenant
 Tenants: A container used to group or isolate resource or identity objects. Depending on service operator a tenant may map to a customer, account, organization or project.
 
-Question 12. Mention What Is The Command To Remove Network Interface From Bare-metal Node?
-
-Answer :
-
+## Question 12. Mention What Is The Command To Remove Network Interface From Bare-metal Node?
 To remove network interface from bare-metal node command used is bare-metal – interface remove.
 
-Question 13. Explain What Is The Function Of Cinder Scheduler?
+## Question 13. Explain What Is The Function Of Cinder Scheduler?
 
 Answer :
 
