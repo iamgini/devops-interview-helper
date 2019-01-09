@@ -12,4 +12,4 @@
 
 ## nginx Interview Questions
 - [nginx interview questions - set 1](https://career.guru99.com/top-18-nginx-interview-question)
-- [nginx interview questions - set 1](https://www.wisdomjobs.com/e-university/nginx-interview-questions.html)
+- [nginx interview questions - set 2](https://www.wisdomjobs.com/e-university/nginx-interview-questions.html)
